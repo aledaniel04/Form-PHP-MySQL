@@ -1,0 +1,125 @@
+.fondo{
+    background: linear-gradient(rgba(16, 16, 75, 0.756), rgba(16, 16, 75, 0.756)), url("https://imagenes.eltiempo.com/files/image_1200_600/uploads/2024/05/24/66510ccd7cef9.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.fondo-transparente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.encabezado{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    width: 45vw;
+    line-height: 10px;
+    margin-top: 60px;
+}
+
+.encabezado p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.container-padre{
+    background-color: rgb(32, 27, 61);
+    opacity: 90%;
+    width: 50vw;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    color: white;
+    gap: 5px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 0px;
+}
+
+.formulario label{
+    margin-top: 20px;
+}
+
+.input-estilo{
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #080808;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.input-estilo:focus, .btn:focus {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #080808;
+  }
+
+.boton-enviar{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px;
+    margin: 10px 0px;
+    width: 150px;
+    font-size: 18px;
+    background: #d9d9e2;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 3px 3px 0px 0px #080808;
+  }
+
+  .btn-mostrar{
+    background: #282829;
+    width: 200px;
+  }
+  
+  .btn:hover {
+    background-color: #3b82f6;
+    color: #fff;
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  .tablaPrincipal{
+    width: 100%;
+  }
+
+  .primaraFila td{
+    background-color: #264143;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .demasFila{
+    background-color: #3b83f673;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .demasFila td{
+    text-align: center;
+  }
